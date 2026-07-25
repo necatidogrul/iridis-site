@@ -1,0 +1,7 @@
+# Iridis: Spectrum Puzzle — color merge game (iOS)
+
+> Iridis is a tap-to-merge color puzzle for iPhone. Players merge same-color tile groups to climb a 7-tier spectrum (red to violet), chain time-based combos, and defuse ticking bombs. 75 handcrafted levels across 5 episodes, unlimited endless mode, and a Daily Challenge where every player worldwide gets the same seeded board with a global Game Center leaderboard. Free with ads; Premium removes ads. App Store: https://apps.apple.com/app/id6759670783
+
+## Links
+- Website: https://necatidogrul.github.io/iridis-site/
+- Developer: https://necatidogrul.dev

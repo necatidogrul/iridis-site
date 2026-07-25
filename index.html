@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iridis — Spectrum Merge Puzzle Game for iPhone</title>
+<meta name="description" content="Iridis is a satisfying color-merge puzzle: tap groups, climb the spectrum from red to violet, chain combos and defuse bombs. 75 handcrafted levels, endless mode, and a daily challenge with a global leaderboard.">
+<link rel="canonical" href="https://necatidogrul.github.io/iridis-site/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Iridis — Spectrum Merge Puzzle">
+<meta property="og:description" content="Tap. Merge. Climb the spectrum. 75 handcrafted levels, endless mode and a daily global challenge.">
+<meta property="og:url" content="https://necatidogrul.github.io/iridis-site/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0d0d14">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"VideoGame","name":"Iridis: Spectrum Puzzle","operatingSystem":"iOS","applicationCategory":"Game","genre":["Puzzle","Board"],"description":"A tap-to-merge color puzzle. Merge same-color tile groups to climb a 7-tier spectrum from red to violet, chain time-based combos, defuse ticking bombs. 75 handcrafted levels across 5 episodes, endless free play, and a daily challenge where everyone plays the same board with a global Game Center leaderboard.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free with ads; optional Premium removes ads and unlocks unlimited level plays"},"url":"https://apps.apple.com/app/id6759670783","author":{"@type":"Person","name":"Necati Dogrul"},"inLanguage":["en","de","es","fr","tr"]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How do you play Iridis?","acceptedAnswer":{"@type":"Answer","text":"Tap a group of two or more same-color tiles to merge them into the next color of the spectrum — red to orange, all the way to violet. Bigger groups and higher tiers score exponentially more, and merging quickly chains combos."}},
+{"@type":"Question","name":"Is Iridis free?","acceptedAnswer":{"@type":"Answer","text":"Yes — Iridis is free with ads. Endless mode and the Daily Challenge are unlimited. Premium removes all ads, unlocks unlimited level plays and includes bonus gems."}},
+{"@type":"Question","name":"What is the Daily Challenge?","acceptedAnswer":{"@type":"Answer","text":"Every day at midnight a new seeded board goes live — identical for every player worldwide. Compete for the highest score on the daily Game Center leaderboard."}},
+{"@type":"Question","name":"How many levels does Iridis have?","acceptedAnswer":{"@type":"Answer","text":"75 handcrafted levels across 5 star-gated episodes with escalating mechanics — tighter moves, more colors and ticking bombs — plus an endless free-play mode."}}]}
+</script>
+<style>
+:root{--bg:#0d0d14;--text:#f5f4fa;--muted:#9b98ad;--card:#17171f}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+header{padding:88px 0 56px;text-align:center}
+h1{font-size:clamp(44px,8vw,72px);font-weight:900;letter-spacing:.04em;background:linear-gradient(90deg,#ff5c4d,#ffa726,#ffe93b,#4ade80,#38bdf8,#8b5cf6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{font-size:clamp(17px,2.6vw,21px);color:var(--muted);max-width:540px;margin:16px auto 0}
+.board{display:grid;grid-template-columns:repeat(5,44px);gap:6px;justify-content:center;margin:34px auto 0}
+.t{width:44px;height:44px;border-radius:10px;animation:pop .5s ease backwards}
+.t:nth-child(1){background:#ff5c4d;animation-delay:.05s}.t:nth-child(2){background:#4ade80;animation-delay:.1s}.t:nth-child(3){background:#ffa726;animation-delay:.15s}.t:nth-child(4){background:#38bdf8;animation-delay:.2s}.t:nth-child(5){background:#ffe93b;animation-delay:.25s}
+.t:nth-child(6){background:#38bdf8;animation-delay:.3s}.t:nth-child(7){background:#ff5c4d;animation-delay:.35s}.t:nth-child(8){background:#8b5cf6;animation-delay:.4s}.t:nth-child(9){background:#4ade80;animation-delay:.45s}.t:nth-child(10){background:#ffa726;animation-delay:.5s}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+.t{box-shadow:0 0 18px -2px currentColor;color:inherit}
+.cta{display:inline-block;margin-top:38px;background:linear-gradient(120deg,#ffa726,#ffd54d);color:#1a1206;font-weight:800;padding:15px 36px;border-radius:999px;text-decoration:none;font-size:17px;box-shadow:0 8px 40px #ffa72644}
+.sub{display:block;margin-top:14px;color:var(--muted);font-size:13px}
+section{padding:52px 0}
+h2{font-size:clamp(25px,4vw,32px);font-weight:800;margin-bottom:26px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid #ffffff12;border-radius:18px;padding:24px}
+.card h3{font-size:16px;margin-bottom:6px}
+.c1 h3{color:#ff5c4d}.c2 h3{color:#ffa726}.c3 h3{color:#ffe93b}.c4 h3{color:#4ade80}.c5 h3{color:#38bdf8}.c6 h3{color:#8b5cf6}
+.card p{color:var(--muted);font-size:15px}
+.faq{max-width:720px;margin:0 auto}
+details{background:var(--card);border:1px solid #ffffff12;border-radius:14px;padding:18px 22px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:650}
+details p{margin-top:10px;color:var(--muted);font-size:15px}
+footer{padding:44px 0 60px;text-align:center;color:var(--muted);font-size:13px}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>IRIDIS</h1>
+    <p class="tag">Tap. Merge. Climb the spectrum. A satisfying color puzzle with handcrafted levels, ticking bombs and a daily worldwide duel.</p>
+    <div class="board" aria-hidden="true">
+      <div class="t"></div><div class="t"></div><div class="t"></div><div class="t"></div><div class="t"></div>
+      <div class="t"></div><div class="t"></div><div class="t"></div><div class="t"></div><div class="t"></div>
+    </div>
+    <a class="cta" href="https://apps.apple.com/app/id6759670783">Download on the App&nbsp;Store</a>
+    <span class="sub">Free · iPhone · EN/DE/ES/FR/TR</span>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Seven colors. One spectrum.</h2>
+    <div class="grid">
+      <div class="card c1"><h3>Merge up the spectrum</h3><p>Tap same-color groups to fuse them into the next tier — red all the way to violet, with exponentially bigger scores.</p></div>
+      <div class="card c2"><h3>Chain combos</h3><p>Merge fast to keep the combo alive. The window shrinks as you climb — flow state guaranteed.</p></div>
+      <div class="card c3"><h3>Defuse the bombs</h3><p>Ticking tiles turn the zen into tension. Merge them away before they take the board with them.</p></div>
+      <div class="card c4"><h3>75 handcrafted levels</h3><p>Five episodes with authored difficulty — breathers, pinch points and boss boards.</p></div>
+      <div class="card c5"><h3>Daily worldwide duel</h3><p>One seeded board per day, identical for everyone. Climb the global Game Center leaderboard.</p></div>
+      <div class="card c6"><h3>Endless, truly</h3><p>Free play is unlimited — die, tap once, go again. Pure "one more try".</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap faq">
+    <h2>Questions</h2>
+    <details><summary>How do you play?</summary><p>Tap groups of 2+ same-color tiles to merge them into the next spectrum color. Bigger groups, higher tiers and fast chains score exponentially more.</p></details>
+    <details><summary>Is it free?</summary><p>Yes, free with ads. Endless and Daily are unlimited. Premium removes ads and unlocks unlimited level plays.</p></details>
+    <details><summary>What's the Daily Challenge?</summary><p>A new seeded board every midnight — the same board for every player on Earth, with a global leaderboard.</p></details>
+    <details><summary>How many levels?</summary><p>75 handcrafted levels across 5 episodes, plus endless mode.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Iridis — made by <a href="https://necatidogrul.dev">Necati Dogrul</a> · <a href="https://apps.apple.com/app/id6759670783">App Store</a></p>
+  </div>
+</footer>
+</body>
+</html>
