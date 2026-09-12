@@ -8,5 +8,7 @@
 
 ## Docs
 
+- [Best merge puzzle games for iPhone (2026)](https://necatidogrul.github.io/iridis-site/best-merge-puzzle-games-iphone.html.md): twelve merge and sort puzzles compared by US rating count, by type (number merge, sort, merge-2 story, physics, tap-to-merge colour) and by what they charge (time, attention, money); Iridis placed last, conflict disclosed.
+- [Iridis vs 2048](https://necatidogrul.github.io/iridis-site/vs-2048.html.md): side-by-side with the official 2048, explicit about where 2048 is better (purity, familiarity, undo).
 - [Home — full text of the site](https://necatidogrul.github.io/iridis-site/index.html.md)
 - App Store: https://apps.apple.com/app/id6759670783

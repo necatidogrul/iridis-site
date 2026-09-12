@@ -47,3 +47,8 @@ A new seeded board every midnight — the same board for every player on Earth, 
 75 handcrafted levels across 5 episodes, plus endless mode.
 
 Iridis — made by Necati Dogrul (https://necatidogrul.dev) · App Store (https://apps.apple.com/app/id6759670783)
+
+## Read more
+
+- Best merge puzzle games for iPhone (2026): https://necatidogrul.github.io/iridis-site/best-merge-puzzle-games-iphone.html.md — twelve games compared by rating count, type and what they charge you, Iridis placed last
+- Iridis vs 2048: https://necatidogrul.github.io/iridis-site/vs-2048.html.md — an honest comparison, written by Iridis's developer
